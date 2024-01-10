@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <! --These are the style elements for the page -->
  <style>
   body {background-color: #EDEBEB;}
@@ -12,19 +13,24 @@
     float: left;
     padding: 0 15px;
 }
+	.banner { 
+ 		width:960px; margin:0 auto; /* size of banner, also centers the color background*/
+   		text-align:center; /*centers-text for all child elements!*/
+   	 	padding:0;
+		font-weight:normal;
+		font-size:400%;
+		background:  orange;
+		text-shadow: 0 1px 0 #fff;
+		padding: .5em 0 ;
+ }
+ .banner small {
+	 display:block; /* see you dont really need the br*/
+	 font-family:sans-serif; font-size:40%;
+	 margin: .125ex 0 0  0 ; /* determines space from site name, 1st # is the value for the space left at the top... 1ex=same space as the height of the  letter'x' ( might as well use good typography!)  */
+ }
+.banner h1 +div { font-weight: bold; font-family:sans; font-s
       </style>
-<html>
-<banner>
-	banner{
-	{ height: auto; }
-	 banner-inner {
-	position: relative; 
-	top: 0;
-	padding: 15px 5px;
-	background: #fff;
-	border: 0;
-	}
-</banner>
+
  <nav>
   <a href="./index">Home</a> |
   <a href="./current-efforts">Current Organizing</a> |
