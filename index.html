@@ -103,6 +103,28 @@
 				margin-bottom: 0.75em;
 				font-size: 1.2vw;
 			}
+			.headline {
+				display: flex;
+				align-items: center;
+				flex-direction: row;
+				text-align: center;
+			}
+			.flex-container {
+				display: flex;
+				}
+			.flex-child {
+				flex: 1;
+				border: 2px none;
+			}
+			.flex-child:first-child {
+				margin-right: 1%;
+				margin-left: 1%;
+				margin-top: 1%;
+			}
+			img {
+				max-width: 70%;
+				max-height:70%;
+			}
         </style>
     </head>
     <body>
@@ -118,11 +140,25 @@
 			<div class="center-div"><h1 style="float:left;border-right: 2% none;overflow-wrap: break-word;">IUB Organizing Hub</h1></div>
 			<div class="center-h6"><h6 style="font-weight:lighter;padding-right:3%;overflow-wrap: break-word;">A clearinghouse for news, media, and more about organizing against injustice at Indiana University</h6></div>
 		</banner>
-		<h1 style="text-align: center;font-size:2vw;">Cancelling Samia Halaby [Jan. 2024]</h1>
-		<p style="text-align: center;font-size:2vw;">1 sentence summary</p>
-	    <hr>
-		<h1 style="font-size=15vw;text-align: center;font-size:2vw;">The Suspension of Abdulkader Sinno [Jan. 2024]</h1>
-		<p style="text-align: center;font-size:2vw;">1 sentence summary</p>
+		
+		<div class="flex-container">
+			<div class="flex-child">
+			<img src="https://www.artnews.com/wp-content/uploads/2023/12/GettyImages-950084102.jpg"/>
+			</div>
+			<div class="flex-child green">
+			<h5 style="line-height=0.5e">Cancelling Samia Halaby [Jan. 2024]</h5>
+			<p style="font-size:2vw;">1 sentence summary</p>
+			</div>
+		</div>
+		<hr>
+		<div class="flex-container">
+			<div class="flex-child">
+			<img src="https://snworksceo.imgix.net/ids/0e60ca0c-5611-497b-8d2e-7dad3f84acf5.sized-1000x1000.jpg?w=1000"/>
+			</div>
+			<div class="flex-child">
+			<h5 style="line-height=0.2em">The Suspension of Abdulkader Sinno [Jan. 2024]</h5>
+			<p style="font-size:2vw;">1 sentence summary</p>
+			</div>
     </body>
 </html>
 <!-- Copyright (C) 2021  Guilherme Pangnotta -->
