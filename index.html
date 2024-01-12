@@ -3,7 +3,7 @@
     <head>
 <!-- These are the meta elements for things like search engines, setting the resolution of the page, and so on. -->
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>IUB Organizing Collective Clearinghouse</title>
         <meta name="description" content="Clearinghouse for media, events, and more regarding organizing at Indiana University Bloomington."/>
         <link rel="canonical" href="https://iub-organizing-collective.github.io/iub-oc/"/>
@@ -13,12 +13,19 @@
 				width: 100%;
 				margin: 0 auto;
 				} /* style to center banner*/
-			.center-table {
-				margin-left: auto;
-				margin-right: auto;
-				font-size: 30px;
-				border-spacing: ;
-			} /* style to center table*/
+			.center-h6 {
+				width: 100%;
+				margin: 0 auto;
+				font-weight: normal;
+				text-align:right;
+				line-height:1em;
+				white-space: normal;
+				word-wrap: break-word;
+				padding-left: 3%;
+				border-left: 2% none;
+				min-width: 20%;
+				overflow-wrap: break-word;
+			}
             body {
 				margin: 0 auto;
 				background: #EDEBEB;
@@ -27,7 +34,7 @@
 				font-size: 16px;
 				line-height: 1.8;
 				text-shadow: 0 1px 0 #ffffff;
-				max-width: 100%;} /* style for body text of web page*/
+			} /* style for body text of web page*/
             a {
 				border-bottom: 1px solid #990000;
 				color: #444444;
@@ -35,18 +42,25 @@
             a:hover {
 				border-bottom: 2px solid;
 				border-bottom-color: #EDEBEB;
+				font-weight:bold;
 			}
 			banner {
 				text-align:center; /*centers-text for all child elements!*/
 				display:flex;
-				font-weight:normal;
-				font-size:300%;
+				font-size:400%;
 				background-color:#990000 !important;
 				color:#EDEBEB;
 				text-shadow: 0 1px 0 #fff;
 				position: center !important;
 				line-height: 2em;
-				margin-top: -6%;
+				margin: auto;
+				padding-left: 3%;
+				padding-right: 3%;
+				text-align: left;
+				white-space: normal;
+				word-wrap: break-word;
+				word-break: keep-all;
+				overflow-x: hidden;
 			}
 			banner small {
 				display:block;
@@ -57,41 +71,51 @@
 				list-style: none;
 				display:flex;
 				background:#990000;
-				font-size: 30;
-				padding-left: 2%;
-				width: 100%;
-				padding-bottom: 2%;
+				padding-left: 3%;
+				padding-right: 3%;
+				width: auto;
+				height:auto;
+				margin:auto;
 			}
 			nav a {
-				font-size:20px;
+				font-size:xx-large;
 				color:#EDEBEB;
 				background: #990000;
 				text-align: center;
 				width: 100%;
-				padding-bottom:2%;
+				min-height: 36px;
+				margin-right: 3%;
+				white-space: normal;
+				word-wrap: break-word;
+				word-break: keep-all;
+				overflow-x: hidden;
+
 			}
 			nav li{
 				color: #EDEBEB;
-				display: flex;
-				padding: 2%;
-				padding-left:2%;
-				padding-right:2%;
+				display: block;
 				width: fit-content;
+				padding-right:2%;
+				white-space: nowrap;
+				word-wrap: break-word;
+				word-break: keep-all;
+				overflow-x: hidden;
 			}
         </style>
-		<nav>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="content.html">What's Happening?</a></li>
-			<li><a href="about.html">About This Site</a></li>
-			<li><a href="contact.html">Contact(s)</a></li>
-		</nav>
     </head>
     <body>
+		<nav>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="content.html">What's Going On?</a></li>
+			<li><a href="about.html">About This Site</a></li>
+			<li><a href="contact.html">Contact(s)</a></li>
+			<li><p style="font-size:200%;position:absolute;right:0;font-weight:lighter;margin: 0 auto;padding-right: 3%;">&#9993 <a href="mailto:iub.org.collective@gmail.com">iub.org.collective[at]gmail.com</a></p></li>
+		</nav>
 	<!-- Content that goes in the banner at the top of the page. -->
         <banner> 
-			<div class="center-div"><h1 style="font-size:200%;font-weight: normal;top-padding:10px;">IUB Organizing Hub</h1></div>
+			<div class="center-div"><h1 style="float:left;border-right: 2% none;overflow-wrap: break-word;">IUB Organizing Hub</h1></div>
+			<div class="center-h6"><h6 style="font-weight:lighter;padding-right:3%;overflow-wrap: break-word;">A clearinghouse for news, media, and more about organizing against injustice at Indiana University in Bloomington, IN</h6></div>
 		</banner>
-		<h3 style="font-size:large;line-height: 1.4em; width: fit-content; height: fit-content;text-align:center;padding-top: 10%;font-style:italic;">A clearinghouse for news, media, and more about organizing against injustice at Indiana University in Bloomington, IN</h3>
 		<h1 style="font-size=%200;text-align: center;">Cancelling Samia Halaby [Jan. 2024]</h1>
 		<p style="text-align: center;font-size:130%;">1 sentence summary</p>
 	    <hr>
@@ -99,7 +123,7 @@
 		<p style="text-align: center;font-size:130%;">1 sentence summary</p>
 	    <hr>
     <footer>
-		<p>Email at <a href="mailto:iub.org.collective@gmail.com">iub.org.collective@gmail.com</a>.</p>
+		<p style="padding-left: 1%;font-size:large;">&#9993 Email at <a href="mailto:iub.org.collective@gmail.com">iub.org.collective@gmail.com</a>.</p>
 	</footer>
     </body>
 </html>
