@@ -1,135 +1,92 @@
-<!doctype html>
-<html lang="en">
-    <head>
-<!-- These are the meta elements for things like search engines, setting the resolution of the page, and so on. -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>IUB Organizing Collective Clearinghouse</title>
-        <meta name="description" content="Clearinghouse for media, events, and more regarding organizing at Indiana University Bloomington."/>
-        <link rel="canonical" href="https://iub-organizing-collective.github.io/iub-oc/"/>
-		
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0">
+    <title>IUB Organizing Collective Hub</title>
+    <meta name="description" content="Clearinghouse for media, events, and more regarding organizing at Indiana University Bloomington.">
+    <link rel="canonical" href="https://iub-organizing-collective.github.io/iub-oc/">
     <style>
-			.center-div{
-				width: 100%;
-				margin: 0 auto;
-				} /* style to center banner*/
-			.center-h6 {
-				width: 100%;
-				margin: 0 auto;
-				font-weight: normal;
-				text-align:right;
-				line-height:1em;
-				white-space: normal;
-				word-wrap: break-word;
-				padding-left: 3%;
-				border-left: 2% none;
-				min-width: 20%;
-				overflow-wrap: break-word;
-			}
-			.decrease-top-spacing { margin-top: 0;}
-            body {
-				margin: 0 auto;
+            body {margin: 5% auto;
 				background: #EDEBEB;
 				color: #990000;
 				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-				font-size: 3vw;
-				line-height: 1.8;
+				font-size: large; line-height: 1.8;
 				text-shadow: 0 1px 0 #ffffff;
-			} /* style for body text of web page*/
-            a {
-				border-bottom: 1px solid #990000;
-				color: #444444;
-				text-decoration: none;}
+				width:auto;
+				height:auto;
+				margins:auto;
+			}
+			hr {
+				margin-top: 1%;
+				border: none;
+			}
+			p{
+				text-align: center;
+				max-width: 100%;
+				text-shadow: 0 1px 0 #fff;
+				font-size:140%;
+				white-space: normal;
+				word-wrap: nowrap;
+				word-break: keep-all;
+				overflow-x: hidden;
+				overflow-y:hidden;
+				margin:0;
+				display: block;
+				justify-content: space-between;
+				line-height:120%;
+				padding-left:10%;
+				padding-right:10%;
+			}	
+			.header-1 {
+				text-align: center !important;
+				font-size:200%;
+				width: 100%;
+				background-color: #990000;
+				color: #EDEBEB;
+				text-shadow: 0 1px 0 #fff;
+				display: block;
+				white-space: normal;
+				word-wrap: nowrap;
+				word-break: keep-all;
+				overflow-x: hidden;
+				border-bottom: 2px none;
+				margin-top: -4%;
+			}
+			.header-2 {
+				text-align: center;
+				width: 100%;
+				text-shadow: 0 1px 0 #fff;
+				white-space: normal;
+				word-wrap: nowrap;
+				word-break: keep-all;
+				overflow-x: hidden;
+				font-size:x-large;
+				margin-top:-1%;
+				margin-bottom:-2%;
+			}
+			.header-5{
+				text-align: center;
+				width: 100%;
+				margin-top:-6%;
+				color: #EDEBEB;
+				text-shadow: 0 1px 0 #fff;
+				text-align:center;
+				font-size:140%;
+				display: block;
+				white-space: normal;
+				word-wrap: nowrap;
+				word-break: keep-all;
+				overflow-x: hidden;
+				margin-bottom:-5%;
+				padding-bottom:1%;
+			}
+            a {border-bottom: 1px none #444444; text-decoration: none;
+			}
             a:hover {
 				border-bottom: 2px solid;
 				border-bottom-color: #EDEBEB;
 				font-weight:bold;
-			}
-			banner {
-				text-align:center; /*centers-text for all child elements!*/
-				display:flex;
-				font-size:100%;
-				background-color:#990000 !important;
-				color:#EDEBEB;
-				text-shadow: 0 1px 0 #fff;
-				position: center !important;
-				line-height: 2em;
-				margin: auto;
-				padding-left: 3%;
-				padding-right: 3%;
-				text-align: left;
-				white-space: normal;
-				word-wrap: break-word;
-				word-break: keep-all;
-				overflow-x: hidden;
-			}
-			banner small {
-				display:block;
-				font-family:sans-serif; font-size:40%;
-				margin: .125ex 0 0  0 ; /* determines space from site name, 1st # is the value for the space left at the top... 1ex=same space as the height of the  letter'x' ( might as well use good typography!)  */
-			}
-			nav {
-				list-style: none;
-				display:flex;
-				background:#990000;
-				padding-left: 3%;
-				padding-right: 3%;
-				width: auto;
-				height:auto;
-				margin:auto;
-				border-bottom: solid #EDEBEB;
-			}
-			nav a {
-				font-size:1.2vw;
-				color:#EDEBEB;
-				background: #990000;
-				text-align: center;
-				width: 100%;
-				min-height: 36px;
-				margin-right: 3%;
-				white-space: normal;
-				word-wrap: break-word;
-				word-break: keep-all;
-				overflow-x: hidden;
-			}
-			nav li{
-				color: #EDEBEB;
-				display: block;
-				width: fit-content;
-				padding-right:2%;
-				white-space: nowrap;
-				word-wrap: break-word;
-				word-break: keep-all;
-				overflow-x: hidden;
-				margin-bottom: 0.75em;
-				font-size: 1.2vw;
-			}
-			.headline {
-				display: flex;
-				align-items: center;
-				flex-direction: row;
-				text-align: center;
-			}
-			.flex-container {
-				display: flex;
-				margin-bottom: 30px;
-				
-				}
-			.flex-child {
-				flex: 1;
-				border: 2px none;
-				margin:0;
-				margin-right: 30%;
-				white-space: nowrap;
-				word-wrap: break-word;
-				word-break: keep-all;
-				overflow-x: hidden;
-				flex-wrap:nowrap;
-				overflow-y:hidden;
-			}
-			.flex-child:first-child {
-				margin: auto;
-				padding-top: 0.5%;
 			}
 			img {
 				width:auto;
@@ -142,45 +99,80 @@
 				margin-right:10%;
 				border: 1px solid;
 				overflow:auto;
-				}
+				position:absolute;
+				left:0;
+			}
+			nav {
+				list-style: none;
+				display:flex;
+				background-color:#990000;
+				padding-left: 3%;
+				padding-right: 3%;
+				width: auto;
+				margin-top: -5%;
+				border: 2px solid;
+				border-color:transparent;
+			}
+			nav a {
+				color:#EDEBEB;
+				text-align: center;
+				width: 100%;
+				margin-right: 3%;
+				white-space: normal;
+				word-wrap: nowrap;
+				word-break: keep-all;
+				overflow-x: hidden;
+				height:fit-content;
+				border: 2px solid;
+				border-color:transparent;
+				min-width: 30%;
+				
+			}
+			nav li{
+				color: #EDEBEB;
+				display: block;
+				width: fit-content;
+				padding-right:2%;
+				white-space: nowrap;
+				word-wrap: nowrap;
+				word-break: keep-all;
+				overflow-x: hidden;
+				border-right: 2px solid;
+				border-color:transparent;
+				text-align:center;
+				margin-right: 2rem;
+				font-size:large;
+			}
         </style>
-    </head>
-    <body>
-		<nav>
+  </head>
+  <body>
+	<nav>
 		<li><a href="index.html">Home</a></li>
 		<li><a href="content.html">What's Going On?</a></li>
 		<li><a href="about.html">About This Site</a></li>
 		<li><a href="contact.html">Contact</a></li>
-		<li><a href="related-orgs.html">Related Organizations</a></li>
-		<li></li><a href="content/test.html">Test Content</a></li>
+		<li><a href="resources.html">Related Organizations</a></li>
 		<li><p style="position:absolute;right:0;font-weight:lighter;margin: 0 auto;padding-right:3%;font-size:large;width:auto;z-index:9;"><nobr>&#9993 <a href="mailto:iub.org.collective@gmail.com">iub.org.collective[at]gmail.com</a></p></li>
 	</nav>
-	<!-- Content that goes in the banner at the top of the page. -->
-        <banner> 
-			<div class="center-div"><h1 style="float:left;border-right: 2% none;overflow-wrap: break-word;">IUB Organizing Hub</h1></div>
-			<div class="center-h6"><h6 style="font-weight:lighter;padding-right:3%;overflow-wrap: break-word;">A clearinghouse for news, media, and more about organizing against injustice at Indiana University</h6></div>
-		</banner>
-		
-		<div class="flex-container">
-			<div class="flex-child">
-			<img src="https://www.artnews.com/wp-content/uploads/2023/12/GettyImages-950084102.jpg"/>
-			</div>
-			<div class="flex-child center-div">
-			<h5 style="line-height:1em;margin: auto;margin-top:1%;margin-right:10%;">Cancelling Samia Halaby [Jan. 2024]</h5>
-			<p style="font-size:1.5vw;margin:auto;">1 sentence summary</p>
-			</div>
-		</div>
-		<div class="flex-container">
-			<div class="flex-child decrease-top-spacing">
-			<img src="https://snworksceo.imgix.net/ids/0e60ca0c-5611-497b-8d2e-7dad3f84acf5.sized-1000x1000.jpg?w=1000"/><br>
-			</div>
-			<div class="flex-child center-div">
-			<h5 style="line-height:1em; margin:auto;margin-top:1%;">The Suspension of Abdulkader Sinno [Jan. 2024]</h5> <nobr>
-			<p style="font-size:1.5vw;margin:auto;justify-content: left;">1 sentence summary</p>
-			</div>
-	<p></p>
-	<p></p>
-    </body>
+    <header>
+      <div class="header-1">
+        <h1 style="position:bottom;">IUB Organizing Hub</h1>
+      </div>
+      <div class="header-5">
+        <h5 style="font-weight:lighter;">A clearinghouse for
+          news, media, and more about organizing against injustice at Indiana
+          University</h5>
+      </div>
+    </header>
+    <div class="header-2">
+		<h2>Cancelling Samia Halaby</h2>
+	</div>
+		<p>1 sentence summary</p>
+	<hr>
+	<div class="header-2">
+		<h2>The Suspension of Abdulkader Sinno [Jan. 2024]</h2>
+	</div>
+		<p>1 sentence summary</p>
+	<hr>
+  </body>
 </html>
-<!-- Copyright (C) 2021  Guilherme Pangnotta -->
-<!-- License: https://github.com/setetres/evenbettermotherfuckingwebsite/blob/master/LICENSE -->
