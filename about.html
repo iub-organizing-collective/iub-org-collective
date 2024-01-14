@@ -87,16 +87,18 @@
 			header {
   overflow: auto;
   margin:0;
-  background: #990000;
+  background-color: #990000;
    overflow-x:hidden;
 }
 
 header a, header label {
   display: block;
   padding: 20px;
-  color: #fff;
+  color: #EDEBEB;
   text-decoration: none;
   line-height: 20px;
+  font-weight:lighter;
+  background-color:#990000;
 }
 
 header a:hover, header label:hover { text-decoration:underline;font-weight:lighter; }
@@ -105,17 +107,20 @@ header label {
   float: right;
   padding: 0 20px;
   cursor: pointer;
+	background-color: #990000;
 }
 
 header label:after {
   content: "\2261";
   font-size: 1.8rem;
+	background-color: #990000;
 }
 
 .logo {
   float: left;
   font-weight: bold;
   font-size: 1.5rem;
+  background-color:#990000;
 }
   
 nav {
@@ -135,19 +140,22 @@ nav ul {
   font-weight:lighter;
   padding: 0;
    padding-bottom: 10px;
+	background-color: #990000;
 }
   
 nav li {
   display: block;
   text-align: center;
+	background-color: #990000;
 }
   
 nav a {
   padding: 10px;
   width: 100%;
+  background-color:#990000;
 }
 
-#nav { display: none; }
+#nav { display: none;background-color: #990000; }
 
 #nav:checked ~ nav {
   max-height: 200px; /* This can be anything bigger than your nav height. The transition duration works with this */
