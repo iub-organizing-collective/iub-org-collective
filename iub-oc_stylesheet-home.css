@@ -11,7 +11,7 @@ body {
 	    p a:link{ color:#5576d1; }
 			hr {
 				margin-top: 1%;
-				border: none;
+				border: 1px solid;
 			}
 			p{
 				text-align: center;
@@ -30,6 +30,8 @@ body {
 				height:auto;
 				font-weight:lighter;
 				color:#990000;
+				max-width:90%;
+				min-width:30%;
 			}
 	    		@media (max-width: 800px) {
 			aside, section { width: auto; float: none; }
@@ -76,7 +78,7 @@ body {
 			}
 	
 .header {
-  background: #990000;
+  background-color: #990000;
   position: fixed;
   width: 100%;
   display: inline-block;
@@ -134,7 +136,7 @@ body {
   top:0;
   left:0;
   border-right: 1px none;
-	background: #990000;
+	background-color: #990000;
 
 }
 
@@ -144,6 +146,7 @@ body {
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
+	background-color: #990000;
 }
 
 /* menu icon */
@@ -185,11 +188,13 @@ body {
 
 .header .menu-icon .navicon:before {
   top: 5px;
+	color:#EDEBEB;
   
 }
 
 .header .menu-icon .navicon:after {
   top: -5px;
+	color:#EDEBEB;
 }
 
 /* menu btn */
@@ -231,17 +236,18 @@ body {
   img {
     max-width: 400px;
     max-height:auto;
-    float: left;
     vertical-align:middle;
-	  margin-left:30%;
-    margin-top:5%;
-    border:1px solid;
+    margin-top:1%;
+    border:1px none;
     z-index:100;
+    display:flex;
   }
   
   .text {
     font-size: calc(15px + 0.390625vw);
 	  margin-left:0;
+    overflow:hidden;
+    margin:0 auto;
   }
 .center-img,
 .center-txt {
@@ -252,7 +258,20 @@ body {
   text-align: center;
   border: 1px solid red;
 }
-
+.box {
+  &__image {
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+  }
+  &__text {
+    display: inline-block;
+    width: 46%;
+    @media (max-width: 620px) {
+      width: 100%;
+    }
+  }
+}
 /* 48em = 768px */
 
 @media (min-width: 50em) {
@@ -270,8 +289,4 @@ body {
   .header .menu-icon {
     display: none;
   }
-}
-.box {
-   display: flex;
-   align-items:center;
 }
