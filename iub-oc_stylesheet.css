@@ -185,11 +185,13 @@ body {
 
 .header .menu-icon .navicon:before {
   top: 5px;
+	color:#EDEBEB;
   
 }
 
 .header .menu-icon .navicon:after {
   top: -5px;
+	color:#EDEBEB;
 }
 
 /* menu btn */
