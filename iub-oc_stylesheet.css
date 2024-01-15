@@ -235,8 +235,13 @@ body {
     max-height:50%;
     float: left;
     vertical-align:middle;
-    margin-left:10%;
   }
+  
+  .text {
+    font-size: calc(15px + 0.390625vw);
+	  margin-left:1%;
+  }
+
 
 /* 48em = 768px */
 
