@@ -1,222 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head> <!-- THIS IS METADATA FOR THE WEBPAGE — LEAVE AS IS -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0">
     <title>IUB Organizing Collective Hub</title>
     <meta name="description" content="Clearinghouse for media, events, and more regarding organizing at Indiana University Bloomington.">
     <link rel="canonical" href="https://iub-organizing-collective.github.io/iub-oc/">
-    <style>
-            body {
-				background: #EDEBEB;
-				color: #990000;
-				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-				font-size: large; line-height: 1.8;
-				text-shadow: 0 1px 0 #ffffff;
-				width:auto;
-				height:auto;
-				margin:auto;
-			}
-			hr {
-				margin-top: 1%;
-				border: none;
-			}
-			p{
-				text-align: center;
-				max-width: 100%;
-				text-shadow: 0 1px 0 #fff;
-				font-size:140%;
-				white-space: normal;
-				word-wrap: nowrap;
-				word-break: keep-all;
-				overflow-x: hidden;
-				overflow-y:hidden;
-				margin:0;
-				display: block;
-				justify-content: space-between;
-				line-height:120%;
-				padding-left:10%;
-				padding-right:10%;
-			}	
-			.header-1 {
-				text-align: center !important;
-				font-size:200%;
-				width: 100%;
-				background-color: #990000;
-				color: #EDEBEB;
-				text-shadow: 0 1px 0 #fff;
-				display: block;
-				white-space: normal;
-				word-wrap: nowrap;
-				word-break: keep-all;
-				overflow-x: hidden;
-			}
-			.header-2 {
-				text-align: center;
-				width: 100%;
-				text-shadow: 0 1px 0 #fff;
-				white-space: normal;
-				word-wrap: nowrap;
-				word-break: keep-all;
-				overflow-x: hidden;
-				font-size:x-large;
-			}
-			.header-5{
-				text-align: center;
-				width: 100%;
-				color: #EDEBEB;
-				text-shadow: 0 1px 0 #fff;
-				text-align:center;
-				font-size:140%;
-				display: block;
-				white-space: normal;
-				word-wrap: nowrap;
-				word-break: keep-all;
-				overflow-x: hidden;
-				margin-bottom:0;
-				background-color: #990000;
-			}
-			}
-			img {
-				width:auto;
-				height:fit-content;
-				max-width: 70%;
-				max-height:auto;
-				margin-top: 0;
-				margin-bottom: -5%;
-				margin-left: 20%;
-				margin-right:10%;
-				border: 1px solid;
-				overflow:auto;
-				position:absolute;
-				left:0;
-			}
-			header {
-  overflow: auto;
-  margin:0;
-  background: #990000;
-   overflow-x:hidden;
-}
-
-header a, header label {
-  display: block;
-  padding: 20px;
-  color: #fff;
-  text-decoration: none;
-  line-height: 20px;
-}
-
-header a:hover, header label:hover { color: #aaa; }
-
-header label {
-  float: right;
-  padding: 0 20px;
-  cursor: pointer;
-}
-
-header label:after {
-  content: "\2261";
-  font-size: 1.8em;
-}
-
-.logo {
-  float: left;
-  font-weight: bold;
-  font-size: 1.5em;
-}
+	  <link rel="stylesheet" href="iub-oc_stylesheet-home.css">
   
-nav {
-  float: right;
-  max-height: 0;
-  width: 100%;
-  padding-right:2%;
-  -webkit-transition: max-height 0.3s; 
-     -moz-transition: max-height 0.3s;
-       -o-transition: max-height 0.3s;
-          transition: max-height 0.3s;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-   padding-bottom: 10px;
-}
-  
-nav li {
-  display: block;
-  text-align: center;
-}
-  
-nav a {
-  padding: 10px;
-  width: 100%;
-}
-
-#nav { display: none; }
-
-#nav:checked ~ nav {
-  max-height: 200px; /* This can be anything bigger than your nav height. The transition duration works with this */
-}
-
-@media only screen and (min-width: 700px) {
-  
-  header label { display: none; }
-  
-  nav {
-    width: auto;
-    max-height: none;
-  }
-  
-  nav ul {
-    padding: 0;
-    padding-right: 10px;
-  }
-  
-  nav li {
-    display: inline-block;
-    text-align: left;
-  }
-  
-  header nav a {
-    display: inline-block;
-    padding: 20px 10px;
-    width: auto;
-  }
-  
-}
-
-        </style>
   </head>
+	
+<!-- THIS IS THE BODY TEXT THAT WILL BE DISPLAYED -->
   <body>
-    <header>
-	<a class="logo" href="index.html">IUB Organizing Hub</a>
-	<input id="nav" type="checkbox">
-	<label for="nav"></label>
-	<nav>
-		<li><a href="content.html">What's Going On?</a></li>
-		<li><a href="about.html">About This Site</a></li>
-		<li><a href="contact.html">Contact</a></li>
-		<li><a href="related-orgs">Related Organizations</a></li>
-		<li><a href="mailto:iub.org.collective@gmail.com">&#9993 iub.org.collective[at]gmail.com</a></li>
-	</nav>
-	  </header>
-    <div class="header-1">
-		<h1 style = "margin-top:0; margin-bottom:0;">IUB Organizing Hub</h1>
+<!-- THIS IS THE CODE FOR THE MENU BAR AND SITE NAVIGATION — LEAVE AS IS -->
+ <header class="header" style="white-space:nowrap;position:fixed;top:0;z-index:12"> 
+  <a href="https://iub-organizing-collective.github.io/iub-oc/index.html" class="logo">IUB Organizing Hub</a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu" style="position:fixed;top:0;z-index:12">
+    <li><a href="https://iub-organizing-collective.github.io/iub-oc/content.html">What's Going On?</a></li>
+    <li><a href="https://iub-organizing-collective.github.io/iub-oc/about.html">About</a></li>
+    <li><a href="https://iub-organizing-collective.github.io/iub-oc/contact.html">Contact</a></li>
+    <li><a href="https://iub-organizing-collective.github.io/iub-oc/resources.html">Resources</a></li>
+    <li><a href="mailto:iub.org.collective@gmail.com">&#128231; iub.org.collective[at]gmail.com<nobr></a></li>
+  </ul>
+ </header>
+	  
+    <div class="header-1"> <!-- THIS IS THE PAGE HEADER —LEAVE AS IS -->
+		<h1 style = "margin-bottom:1.5rem;padding-top:2rem;line-height:normal;z-index: 5; top: 0;margin-bottom:0.5rem">IUB Organizing Hub</h1>
 	</div>
-    <div class="header-5">
-		<h5 style="font-weight:lighter;margin-top:0;">A clearinghouse for
-          news, media, and more about organizing against injustice at Indiana
-          University</h5>
-	</div>
-    <div class="header-2">
-		<h2 style: "margin-top:0",>Cancelling Samia Halaby</h2>
-	</div>
-		<p>1 sentence summary</p>
-	<hr>
-	<div class="header-2">
-		<h2>The Suspension of Abdulkader Sinno [Jan. 2024]</h2>
-	</div>
-		<p>1 sentence summary</p>
-	<hr>
+   <div class="header-5"> <!-- THIS IS THE PAGE HEADER —LEAVE AS IS -->
+		<h5 style = "font-weight:lighter;margin-top:0">A clearinghouse for media, petitions, and other events related to organizing against injustice at Indiana University Bloomington.</h5>
+	</div> 
+<!-- THIS IS WHERE YOU WILL ENTER NEW EVENTS THAT ARE GOING ON AROUND CAMPUS, REPLACE THE TEXT BELOW. -->
+	<div class="header-2"> <!-- THIS IS THE HEADER FOR WHAT IS GOING ON -->
+<div class="box">
+    <img src="https://www.arabnews.com/sites/default/files/styles/n_670_395/public/media/15/01/2014/1389453868219269100.jpg?itok=hx4M-nU4" class="center-img" alt="Nature">
+ <nobr>
+    <span style=""><h2>Cancelling Samia Halaby (Jan. 2024) <a href="content/halaby-samia.html">[Links]</a><br></h2>
+<p>Palestinian artist, activist, and educator Samia Halaby's first retrospective exhibition in the U.S. is cancelled by Indiana University, citing "safety and security," as well as Halaby's Instagram posts advocating for Palestinian liberation.</p>
+    </span>
+</div>
+<hr>
+<div class="header-2"> <!-- THIS IS THE HEADER FOR WHAT IS GOING ON -->
+<div class="box">
+    <img src="https://www.arabnews.com/sites/default/files/styles/n_670_395/public/media/15/01/2014/1389453868219269100.jpg?itok=hx4M-nU4" class="center-img" alt="Nature">
+ <nobr>
+    <span style=""><h2><h2>Suspending Abdulkader Sinno (Jan. 2024) <a href="content/abdulkader-sinno">[Links]</a></h2>
+<p>In direct response to Sinno's role as advisor of IUB's Palestinian Solidarity Committee, the university suspended him for the Spring/Summer 2024 semesters for holding an event to support Palestinians.</p>
+    </span>
+</div>
   </body>
 </html>
