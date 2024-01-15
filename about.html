@@ -6,228 +6,25 @@
     <title>IUB Organizing Collective Hub</title>
     <meta name="description" content="Clearinghouse for media, events, and more regarding organizing at Indiana University Bloomington.">
     <link rel="canonical" href="https://iub-organizing-collective.github.io/iub-oc/">
-    <link rel="stylesheet" href="_assets/iub-oc_dark-mode.css" />
-    <style>
-            body {
-				background: #EDEBEB;
-				color: #990000;
-				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-				font-size: calc(15px + 0.390625vw); line-height: 1.8;
-				text-shadow: 0 1px 0 #ffffff;
-				width:auto;
-				height:auto;
-				margin:auto;
-			}
-			hr {
-				margin-top: 1%;
-				border: none;
-			}
-			p{
-				text-align: center;
-				max-width: 90%;
-				text-shadow: 0 1px 0 #fff;
-				white-space: normal;
-				word-wrap: nowrap;
-				word-break: keep-all;
-				overflow-x: hidden;
-				overflow-y:hidden;
-				margin:0;
-				display: block;
-				justify-content: space-between;
-				line-height:120%;
-				padding-top:1.5rem;
-				margin-top:0.5rem;
-				line-height:normal;
-			}
-	    		@media (max-width: 800px) {
-			aside, section { width: auto; float: none; }
-		}
-			.header-1 {
-				text-align: center !important;
-				font-size:1.8rem;
-				width: 100%;
-				background-color: #990000;
-				color: #EDEBEB;
-				text-shadow: 0 1px 0 #fff;
-				display: block;
-				white-space: normalnp-wrap;
-				word-break: keep-all;
-				overflow-x: hidden;
-				line-height:1;
-				line-height:normal;
-				
-			}
-			.header-2 {
-				text-align: center;
-				width: 100%;
-				text-shadow: 0 1px 0 #fff;
-				white-space: normal;
-				word-wrap: nowrap;
-				word-break: keep-all;
-				overflow-x: hidden;
-				font-size:1.5rem;
-				line-height:normal;
-			}
-			.header-5{
-				text-align: center;
-				width: 100%;
-				color: #EDEBEB;
-				text-shadow: 0 1px 0 #fff;
-				text-align:center;
-				font-size:140%;
-				display: block;
-				white-space: normal;
-				word-wrap: nowrap;
-				word-break: keep-all;
-				overflow-x: hidden;
-				margin-bottom:0;
-				background-color: #990000;
-			}
-			}
-			header {
-  overflow: auto;
-  margin:0;
-  background-color: #990000;
-   overflow-x:hidden;
-}
-
-header a, header label {
-  display: block;
-  padding: 20px;
-  color: #EDEBEB;
-  text-decoration: none;
-  line-height: 20px;
-  font-weight:lighter;
-  background-color:#990000;
-}
-
-header a:hover, header label:hover { text-decoration:underline;font-weight:lighter; }
-
-header label {
-  float: right;
-  padding: 0 20px;
-  cursor: pointer;
-	background-color: #990000;
-}
-
-header label:after {
-  content: "\2261";
-  font-size: 1.8rem;
-	background-color: #990000;
-}
-
-.logo {
-  float: left;
-  font-weight: bold;
-  font-size: 1.5rem;
-  background-color:#990000;
-}
-  
-nav {
-  float: right;
-  background-color:#990000;
-  max-height: 0;
-  width: 100%;
-  padding-right:2%;
-  -webkit-transition: max-height 0.3s; 
-     -moz-transition: max-height 0.3s;
-       -o-transition: max-height 0.3s;
-          transition: max-height 0.3s;
-}
-
-nav ul {
-  margin: 0;
-  font-weight:lighter;
-  padding: 0;
-   padding-bottom: 10px;
-	background-color: #990000;
-}
-  
-nav li {
-  display: block;
-  text-align: center;
-	background-color: #990000;
-}
-  
-nav a {
-  padding: 10px;
-  width: 100%;
-  background-color:#990000;
-}
-
-#nav { display: none;background-color: #990000; }
-
-#nav:checked ~ nav {
-  max-height: 200px; /* This can be anything bigger than your nav height. The transition duration works with this */
-}
-
-@media only screen and (min-width: 700px) {
-  
-  header label { display: none; }
-  
-  nav {
-    width: auto;
-    max-height: none;
-    background-color:#990000;
-  }
-  
-  nav ul {
-    padding: 0;
-    padding-right: 10px;
-  }
-  
-  nav li {
-    display: inline-block;
-    text-align: left;
-  }
-  
-  header nav a {
-    display: inline-block;
-    padding: 20px 10px;
-    width: auto;
-  }
-	.header-1 {
-				text-align: center !important;
-				font-size:100%;
-				width: 100%;
-				background-color: #990000;
-				color: #EDEBEB;
-				text-shadow: 0 1px 0 #fff;
-				display: block;
-				white-space: normalnp-wrap;
-				word-break: keep-all;
-				overflow-x: hidden;
-			}
-  
-}
-        </style>
+    <link rel="stylesheet" href="_assets/iub-oc_stylesheet.css">
   </head>
+
   <body>
-    <header>
-	<a class="logo" href="index.html">IUB Organizing Hub</a>
-	<input id="nav" type="checkbox">
-	<label for="nav"></label>
-	<nav>
-		<li><a href="content.html">What's Going On?</a></li>
-		<li><a href="about.html">About</a></li>
-		<li><a href="contribute.html">Contribute</a></li>
-		<li><a href="resources.html">Resources</a></li>
-		<li><a href="mailto:iub.org.collective@gmail.com">&#9993 iub.org.collective[at]gmail.com</a></li>
-	</nav>
-	</header>
+ <header class="header" style="white-space:nowrap;position:fixed;top:0;z-index:12">
+  <a href="https://iub-organizing-collective.github.io/iub-oc/index.html" class="logo">IUB Organizing Hub</a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu" style="position:fixed;top:0;z-index:12">
+    <li><a href="https://iub-organizing-collective.github.io/iub-oc/content.html">What's Going On?</a></li>
+    <li><a href="https://iub-organizing-collective.github.io/iub-oc/about.html">About</a></li>
+    <li><a href="https://iub-organizing-collective.github.io/iub-oc/contact.html">Contact</a></li>
+    <li><a href="https://iub-organizing-collective.github.io/iub-oc/resources.html">Resources</a></li>
+    <li><a href="mailto:iub.org.collective@gmail.com">&#128231; iub.org.collective[at]gmail.com<nobr></a></li>
+  </ul>
+</header>
     <div class="header-1">
-		<h1 style = "margin-top:0; margin-bottom:1rem;padding-bottom:1rem;padding-top:1rem;">About This Site</h1>
+		<h1 style = "margin-bottom:1rem;rem;padding-top:2rem;line-height:normal;z-index: 5;height: 100px; top: 0;">About This Site</h1>
 	</div>
 	<p style="top-margin:3rem;">This site acts as a hub for news, media, petitions, and events around injustice on the campus of Indiana University Bloomington (IUB). This site is collectively managed by the Indiana University Bloomington Organizing Collective (IUB-OC), a loosely affiliated group composed of faculty, graduate students, undergraduates, and alumni from IUB.<br><br>To contribute or get involved with this site, please email <a href="mailto:iub.org.collective@gmail.com">iub.org.collective[at]gmail.com</a>. Feel free to send anything you may think is relevant. If there are things going on that are not included here, please include a one sentence summary.</p>
-	<br>
-	 <div id="container">
-            <button id="theme-toggle" class="btn" type="button">
-                <div class="icon-show-light icon-hide">
-                    <img height="24" width="24" src="https://jjaimealeman.github.io/my-theme-switcher/images/icon-moon.svg" alt="Light Mode" />
-                </div>
-    <div class="icon-show-dark icon-hide">
-                    <img height="24" width="24" src="https://jjaimealeman.github.io/my-theme-switcher/images/icon-sun.svg" alt="Dark Mode" />
-    </div></button></div>
-<script src="https://jjaimealeman.github.io/my-theme-switcher/scripts/app.js"></script>
   </body>
 </html>
