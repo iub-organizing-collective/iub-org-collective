@@ -231,9 +231,7 @@ body {
   img {
     max-width: 400px;
     max-height:auto;
-    float: left;
     vertical-align:middle;
-	  margin-left:30%;
     margin-top:5%;
     border:1px none;
     z-index:100;
@@ -257,9 +255,18 @@ body {
   border: 1px solid red;
 }
 .box {
-   display: flex;
-   align-items:center;
-  overflow:hidden;
+  &__image {
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+  }
+  &__text {
+    display: inline-block;
+    width: 46%;
+    @media (max-width: 620px) {
+      width: 100%;
+    }
+  }
 }
 /* 48em = 768px */
 
