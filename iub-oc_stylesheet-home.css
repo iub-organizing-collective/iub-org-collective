@@ -24,13 +24,10 @@ body {
 				display: block;
 				justify-content: space-between;
 				line-height:120%;
-				padding-top:1.5rem;
-				margin-top:0.5rem;
 				line-height:normal;
 				padding-right:10%;
 				padding-left:10%;
 				height:auto;
-				background-color:#EDEBEB;
 				font-weight:lighter;
 				color:#990000;
 			}
@@ -75,6 +72,7 @@ body {
 				overflow-x: hidden;
 				margin-bottom:0;
 				background-color: #990000;
+        font-weight:lighter;
 			}
 	
 .header {
@@ -231,13 +229,14 @@ body {
   }
   
   img {
-    max-width: 65%;
-    max-height:50%;
+    max-width: 400px;
+    max-height:auto;
     float: left;
     vertical-align:middle;
 	  margin-left:30%;
     margin-top:5%;
     border:1px solid;
+    z-index:100;
   }
   
   .text {
