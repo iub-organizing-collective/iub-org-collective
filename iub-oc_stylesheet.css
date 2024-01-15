@@ -235,13 +235,24 @@ body {
     max-height:50%;
     float: left;
     vertical-align:middle;
+	  margin-left:30%;
+    margin-top:5%;
+    border:1px solid;
   }
   
   .text {
     font-size: calc(15px + 0.390625vw);
-	  margin-left:1%;
+	  margin-left:0;
   }
-
+.center-img,
+.center-txt {
+  display: inline-block;
+  vertical-align: middle;
+}
+#wrapper {
+  text-align: center;
+  border: 1px solid red;
+}
 
 /* 48em = 768px */
 
@@ -260,4 +271,8 @@ body {
   .header .menu-icon {
     display: none;
   }
+}
+.box {
+   display: flex;
+   align-items:center;
 }
