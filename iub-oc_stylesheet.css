@@ -76,7 +76,7 @@ body {
 			}
 	
 .header {
-  background: #990000;
+  background-color: #990000;
   position: fixed;
   width: 100%;
   display: inline-block;
@@ -134,7 +134,7 @@ body {
   top:0;
   left:0;
   border-right: 1px none;
-	background: #990000;
+	background-color: #990000;
 
 }
 
@@ -144,6 +144,7 @@ body {
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
+	background-color: #990000;
 }
 
 /* menu icon */
