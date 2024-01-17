@@ -228,7 +228,7 @@ body {
   }
 .center-img,
 .center-txt {
-  display: inline-block;
+  display: flex-inline;
   vertical-align: middle;
 }
 #wrapper {
