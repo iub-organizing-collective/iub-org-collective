@@ -228,8 +228,10 @@ body {
   }
 .center-img,
 .center-txt {
-  display: flex-inline;
-  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 #wrapper {
   text-align: center;
@@ -237,10 +239,10 @@ body {
 }
 .box {
   &__image {
-    display: flex-inline;
+    display: block-inline;
     vertical-align: middle;
     width: 46%;
-    item-align: center;
+    
   }
   &__text {
     display: inline-block;
