@@ -214,6 +214,7 @@ body {
     max-height:auto;
     vertical-align:middle;
 	  margin: 0, auto;
+	  object-fit: contain;
   }
   
   .text {
@@ -236,7 +237,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     width: 46%;
-    
+    object-fit: contain;
   }
   &__text {
     display: inline-block;
