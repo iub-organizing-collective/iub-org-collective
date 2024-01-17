@@ -237,9 +237,10 @@ body {
 }
 .box {
   &__image {
-    display: inline-block;
+    display: flex-inline;
     vertical-align: middle;
     width: 46%;
+    item-align: center;
   }
   &__text {
     display: inline-block;
