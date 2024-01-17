@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   line-height:normal;
-  
 }
 hr {
    background-color:#EDEBEB;
@@ -42,8 +41,8 @@ body {
 				justify-content: space-between;
 				line-height:120%;
 				line-height:normal;
-				padding-right:10%;
-				padding-left:10%;
+				padding-right:5%;
+				padding-left:5%;
         padding-bottom:1rem;
 				height:auto;
 				font-weight:lighter;
