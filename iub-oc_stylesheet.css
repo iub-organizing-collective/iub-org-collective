@@ -62,22 +62,22 @@ body {
 				color: #EDEBEB;
 				text-shadow: 0 1px 0 #fff;
 				display: fixed;
-				white-space: no-wrap;
 				word-break: keep-all;
 				overflow-x: hidden;
-        margin-top:-2rem;
-        margin-bottom:-1.5rem;
-        padding-bottom:2.5rem;
+				margin-top:-2rem;
+				margin-bottom:-1.5rem;
+				padding-bottom:2.5rem;
 			}
 			.header-2 {
 				text-align: center;
 				width: 100%;
-				white-space: normal;
+				white-space: no-wrap;
 				word-wrap: nowrap;
 				word-break: keep-all;
 				overflow-x: hidden;
 				font-size: calc(15px + 0.390625vw);
 				line-height:normal;
+				display:flex-inline;
         color: #990000;
         white-space: pre-wrap; /* CSS3 */    
 	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
