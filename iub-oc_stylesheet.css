@@ -211,7 +211,8 @@ body {
   }
   
   img {
-    max-width: 300px;
+    margin-top:1rem;
+	  max-width: 300px;
     max-height:auto;
     vertical-align:middle;
 	  object-fit: contain;
@@ -238,6 +239,7 @@ body {
     vertical-align: middle;
     width: 46%;
     object-fit: contain;
+	  margin-top:1rem;
   }
   &__text {
     display: inline-block;
