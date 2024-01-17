@@ -79,13 +79,9 @@ body {
 				line-height:normal;
 				display:flex-inline;
         color: #990000;
-        white-space: pre-wrap; /* CSS3 */    
-	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
-	white-space: -pre-wrap; /* Opera 4-6 */    
-	white-space: -o-pre-wrap; /* Opera 7 */    
-	word-wrap: break-word; /* Internet Explorer 5.5+ */
          background-color:#EDEBEB;
 				margin: 0 auto;
+				max-width:100%;
 			}
 			.header-5{
 				text-align: center;
