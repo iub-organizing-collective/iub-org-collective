@@ -13,6 +13,11 @@ hr {
 a {
 	margin:0;
 	padding:0;
+	white-space: pre-wrap; /* CSS3 */    
+	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */    
+	white-space: -o-pre-wrap; /* Opera 7 */    
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
 a:link{ color:#5576d1; }
 body {
@@ -141,11 +146,6 @@ body {
   padding: 10px 10px 10px 10px;
   text-decoration: none;
   color: #EDEBEB;
-	white-space: pre-wrap; /* CSS3 */    
-	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
-	white-space: -pre-wrap; /* Opera 4-6 */    
-	white-space: -o-pre-wrap; /* Opera 7 */    
-	word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
 
 .nav > .nav-links > a:hover {
