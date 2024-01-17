@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   line-height:normal;
+  
 }
 a {
 	margin:0;
@@ -42,6 +43,7 @@ body {
 				color:#990000;
 				max-width:90%;
 				min-width:30%;
+        background-color:#EDEBEB;
 			}
 	    		@media (max-width: 800px) {
 			aside, section { width: auto; float: none; }
@@ -76,6 +78,7 @@ body {
 	white-space: -pre-wrap; /* Opera 4-6 */    
 	white-space: -o-pre-wrap; /* Opera 7 */    
 	word-wrap: break-word; /* Internet Explorer 5.5+ */
+        background-color:#EDEBEB;
 			}
 			.header-5{
 				text-align: center;
@@ -89,6 +92,7 @@ body {
 				overflow-x: hidden;
         font-weight:lighter;
         height:auto;
+        background-color:#EDEBEB;
 			}
 
 .nav {
