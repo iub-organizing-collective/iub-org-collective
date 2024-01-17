@@ -5,6 +5,11 @@
   line-height:normal;
   
 }
+hr {
+   background-color:#EDEBEB;
+   color: #990000;
+  
+}
 a {
 	margin:0;
 	padding:0;
@@ -38,6 +43,7 @@ body {
 				line-height:normal;
 				padding-right:10%;
 				padding-left:10%;
+        padding-bottom:1rem;
 				height:auto;
 				font-weight:lighter;
 				color:#990000;
@@ -60,8 +66,8 @@ body {
 				word-break: keep-all;
 				overflow-x: hidden;
         margin-top:-2rem;
-        margin-bottom:-3rem;
-        padding-bottom:4rem;
+        margin-bottom:-1.5rem;
+        padding-bottom:2.5rem;
 			}
 			.header-2 {
 				text-align: center;
@@ -78,7 +84,7 @@ body {
 	white-space: -pre-wrap; /* Opera 4-6 */    
 	white-space: -o-pre-wrap; /* Opera 7 */    
 	word-wrap: break-word; /* Internet Explorer 5.5+ */
-        background-color:#EDEBEB;
+         background-color:#EDEBEB;
 			}
 			.header-5{
 				text-align: center;
@@ -92,7 +98,9 @@ body {
 				overflow-x: hidden;
         font-weight:lighter;
         height:auto;
-        background-color:#EDEBEB;
+        margin-top:0;
+        background-color: #990000;
+        padding-bottom: 1rem !important;
 			}
 
 .nav {
@@ -211,9 +219,6 @@ body {
     max-height:auto;
     vertical-align:middle;
     margin-top:1%;
-    border:1px none;
-    z-index:100;
-    display:flex-inline;
   }
   
   .text {
