@@ -210,10 +210,9 @@ body {
   }
   
   img {
-    max-width: 400px;
+    max-width: 300px;
     max-height:auto;
     vertical-align:middle;
-	  margin: 0, auto;
 	  object-fit: contain;
   }
   
