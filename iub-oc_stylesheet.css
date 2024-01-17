@@ -71,8 +71,6 @@ body {
 			.header-2 {
 				text-align: center;
 				width: 100%;
-				white-space: no-wrap;
-				word-wrap: nowrap;
 				word-break: keep-all;
 				overflow-x: hidden;
 				font-size: calc(15px + 0.390625vw);
